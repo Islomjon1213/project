@@ -13,15 +13,15 @@ class Lambargini:
         print("400 horses")
 
 class Car:
-    def fast(self,brand):
-        brand.drive()
+    def fast(self,sa):
+        sa.drive()
         
 
-brand = Lambargini()
+sa = Lambargini()
 bmw = BMW()
 
 c1 = Car()
 c2 = Car()
 
-c1.fast(brand)
+c1.fast(sa)
 c2.fast(bmw)
