@@ -1,0 +1,52 @@
+body{
+    background-image: url(horses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    font-family: "Islomjon" serif, sans-serif;
+    text-align: center;
+}
+
+.box{
+    /*background: linear-gradient(to left,#5c5c3d, #e0e0d1);
+    box-shadow: 3px 4px 2px red;*/
+}
+
+h1,h2,h3{
+    color: wheat;
+    line-height: 10px;
+    font-style: italic;
+}
+h2{
+    font-size: 20px;
+    font-style: normal;
+}
+a{
+    font-size: 20px;
+    color: greenyellow;
+    font-style: oblique;
+    text-decoration: none;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+
+.picture{
+    border: 3px dashed red;
+    background-color: black;
+}
+
+ul li{
+    color: red;
+    font-size: 25px;
+}
+ul > li{
+    color: black;
+    font-size: 20;
+}
+.format{
+    color:aqua; font-size: 20px;
+    line-height: 20p;
+    text-transform: uppercase;
+
+}
