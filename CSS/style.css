@@ -1,10 +1,9 @@
 body{
-    background-image: url(horses.jpg);
+    /*background-image: url(horses.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     background-color: gray;
-    font-family: "Islomjon" serif, sans-serif;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .box{
@@ -12,14 +11,20 @@ body{
     box-shadow: 3px 4px 2px red;*/
 }
 
-h1,h2,h3{
+h1{
     color: wheat;
     line-height: 10px;
-    font-style: italic;
+    font-family: 'Dancing+Script',serif,sans-serif;
 }
 h2{
-    font-size: 20px;
-    font-style: normal;
+    color: wheat;
+    line-height: 10px;
+    font-family: 'Dosis',serif,sans-serif;
+}
+h3{
+    color: wheat;
+    line-height: 10px;
+    font-family: 'Kolker+Brush'serif,sans-serif;
 }
 a{
     font-size: 20px;
@@ -29,11 +34,19 @@ a{
     word-spacing: 10px;
     text-transform: uppercase;
 }
-
-
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 2px;
+    margin: auto;
+    display: block;
+}
 .picture{
-    border: 3px dashed red;
-    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    border: 5px dotted black;
 }
 
 ul li{
@@ -48,5 +61,45 @@ ul > li{
     color:aqua; font-size: 20px;
     line-height: 20p;
     text-transform: uppercase;
+}
+.padding{
+    color:antiquewhite;
+    background: red;
+    border-radius: 10px;
+    border:none;
+    font-size: 25px;
+    padding: 20px 10px 30px 40px;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
 
+.row::after {
+    display: block;
+    clear:both;
+    content: "";
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+  border: 3px solid green;
+  padding: 10px;
+  float: left;
 }
