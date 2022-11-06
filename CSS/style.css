@@ -103,3 +103,9 @@ ul > li{
   padding: 10px;
   float: left;
 }
+.names{
+    font-size: 15px;
+    color:blue;
+    text-decoration: solid blue;
+    text-transform: uppercase;
+}
