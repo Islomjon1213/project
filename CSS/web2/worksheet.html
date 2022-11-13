@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple calculator</title>
+        <title>Webpage</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="learn.js"></script>
     </head>
     <body>
-        <h1>Simple calculator</h1>
-        <p>x what is the % of Y</p>
-        <form>
-            <input type="text" class="inputbox1" id="firstNumber" placeholder="First Number">
-            <input type="text" class="inputbox1" id="secondNumber" placeholder="Second Number"><br><br>
+        <h1>Calculator to find multplicate</h1>
+        <p>X into Y</p>
+        <form id="forms">
+            <input class="inputBox" type="text" id="fNumber" placeholder="First Number">
+            <p>the multplication</p>
+            <input class="inputBox" type="text" id="sNumber" placeholder="Second Number"><br><br>
+            <input class="boxInput" type="submit"  value="SUBMIT">
         </form>
-        <button class="buttonBox" id="buttonClick" onclick="addNumbers()">Click</button>
-        <h3 class="header3" id="result"></h3>
-        <script type="text/javascript" src="learn.js"></script>
-    </body>    
+        <h3 id="result"></h3>
+        <!-- <script type="text/javascript" src="learn.js"></script> -->
+    </body>
 </html>
