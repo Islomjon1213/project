@@ -1,51 +1,122 @@
-body.signin-body {
-    background-color: darkgray;
+nav.navbarcolor {
+    background-color: antiquewhite;
 }
 
-.container.signin-container{
-    margin-top: 3%;
+div.navwords a {
+    font-size: 15px;
+    font-style:normal;
 }
 
-h1.signin-h1 {
-    text-align: center;
-    margin-bottom: 15px;
-    columns: black;
-    text-transform: uppercase;
+.navbar-nav.xayrli a {
+    color: black;
+    font-size: 20px;
 }
 
-.card.signin-card {
-    padding: 30px 0 15px;
-    background-color: #e6f2ff;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, .5);
+.navbar-brand.navruz:hover {
+    background-color: red;
+    color: black;
 }
 
-img.signin-img {
-    padding: 0 1rem 1rem;
+.navbar-nav.xayrli a:hover {
+    background-color: red;
+    color: black;
+}
+
+div.body-part {
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+form.body-forms {
+    max-width: 350px;
     display: block;
     margin: auto;
-    width: 70%;
 }
 
-form.signin-form {
-    max-width: 300px;
-    margin: auto;
-    display: block;
-}
-
-button.signin-btn {
+button.signin-button {
     color: #ffffff;
     background-color: #d64829;
     width: 100%;
-    padding: 15px;
+    padding: 5px;
     font-size: 20px;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.1rem
 }
 
-a.createAccount {
-    font-size: 1.3rem;
-    text-align: center;
+.form-check .form-check-input {
+    float: none;
+}
+
+.form-check-label.label-one {
+    font-size: 25px;
+}
+
+.form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: .30em;
+    vertical-align:text-bottom;
+}
+
+a.creator2 {
+    text-decoration: none;
+}
+
+a.creator {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+iframe.videoframe {
+    margin-top: 20px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.container-fluid.text-center.container2 {
+    background-color: darkgray;
+}
+
+.card.card-ones {
     display: block;
-    margin-top: 15px;
+    margin: auto;
+    border: 5px solid red;
+    border-radius: 8%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container-fluid.text-center.container-3part {
+    background-color: #e6f2ff;
+}
+
+p.paragraphones {
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+img.images-class {
+    max-width: 400px;
+    border: 4px solid grey;
+    margin: 15px;
+}
+
+.container-fluid.container-4part {
+    background-color: dimgrey;
+}
+
+.header-3 {
+    font-size: 30px;
+}
+
+ul.unordered-list li {
+    font-size: 20px;
+    
+}
+
+div.col-sm.columones {
+    margin: 20px;
+    max-width: 50%;
 }

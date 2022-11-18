@@ -1,0 +1,95 @@
+.jumbotron {
+    display: block;
+    text-align: center;
+}
+
+h1.firsth1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+p.firstP1 {
+    font-size: 30px;
+}
+
+img.skateImg {
+    height: 450px;
+}
+
+div.sectionLight {
+    background-color: #eceeef;
+    padding: 3rem;
+}
+
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.ButtonSection {
+    margin-top: 20px;
+}
+
+button.buttonOwnBtn {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+h5.header5 {
+  font-weight: 500;
+  color: #ffffff;
+  padding: 5px;
+}
+
+h1.modal-title{
+    margin: auto;
+}
+
+.modelForms {
+    padding: 2rem;
+}
+
+img.imagesKick {
+    display: block;
+    margin: auto;
+}
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 66%;
+}
+
+.modal-lg, .modal-xl {
+    --bs-modal-width: 400px;
+}
+
+footer.footerPart {
+    background-color: #292b2c;
+}
+
+.imagesOnes {
+    padding: 15px;
+}
+
+.fa-facebook-square {
+    color: #3b5993;
+}
+
+.fa-google-plus-square {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #fff;
+}
+
+.fa {
+   margin: 15px;
+}
+
+.socialMedia {
+    margin: auto;
+}
